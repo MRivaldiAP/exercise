@@ -255,4 +255,23 @@
     });
   });
 
+
 })()
+
+/**
+   * Carousel on click
+   */
+
+function compassFunc() {
+  var com = document.getElementById("compass");
+    com.classList.remove("d-none");
+  var ham = document.getElementById("hammer");
+    ham.classList.add("d-none");
+}
+
+function hammerFunc() {
+  var ham = document.getElementById("hammer");
+    ham.classList.remove("d-none");
+  var com = document.getElementById("compass");
+    com.classList.add("d-none");
+}
