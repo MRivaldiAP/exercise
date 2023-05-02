@@ -340,6 +340,8 @@ h6 {
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
+
+  
 }
 
 /**
@@ -655,9 +657,18 @@ section {
   transform: scale(1.1);
 }
 
+.sliding {
+  margin-left: 18%;
+  width: 70%;
+}
+
 @media (max-width: 768px) {
   .clients img {
     max-width: 40%;
+  }
+  .sliding {
+    margin-left: 0%;
+    width: 100%;
   }
 }
 
