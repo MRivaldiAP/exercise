@@ -7,11 +7,15 @@ body {
 }
 
 .v80 {
-  height : 80vh;
+  height: 80vh;
 }
 
 .time {
   font-family: monospace;
+}
+
+.course-link {
+  color: white;
 }
 
 .titlesec{
