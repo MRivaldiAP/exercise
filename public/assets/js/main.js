@@ -255,16 +255,29 @@
    * Carousel on click
    */
 
-function compassFunc() {
-  var com = document.getElementById("compass");
-    com.classList.remove("d-none");
-  var ham = document.getElementById("hammer");
-    ham.classList.add("d-none");
+function job1Func() {
+  var job1 = document.getElementById("job1");
+    job1.classList.remove("d-none");
+  var job2 = document.getElementById("job2");
+  job2.classList.add("d-none");
+  var job3 = document.getElementById("job3");
+    job3.classList.add("d-none");
 }
 
-function hammerFunc() {
-  var ham = document.getElementById("hammer");
-    ham.classList.remove("d-none");
-  var com = document.getElementById("compass");
-    com.classList.add("d-none");
+function job2Func() {
+  var job2 = document.getElementById("job2");
+    job2.classList.remove("d-none");
+  var job1 = document.getElementById("job1");
+    job1.classList.add("d-none");
+  var job3 = document.getElementById("job3");
+    job3.classList.add("d-none");
+}
+
+function job3Func() {
+  var job2 = document.getElementById("job2");
+    job2.classList.add("d-none");
+  var job1 = document.getElementById("job1");
+    job1.classList.add("d-none");
+  var job3 = document.getElementById("job3");
+    job3.classList.remove("d-none");
 }
