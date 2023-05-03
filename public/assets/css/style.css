@@ -10,6 +10,10 @@ body {
   height: 80vh;
 }
 
+.v100 {
+  height: 100vh;
+}
+
 .time {
   font-family: monospace;
 }
