@@ -1,20 +1,13 @@
-/**
-* Template Name: Arsha
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background-size: 200% 200%;
   background-image: linear-gradient(45deg,#2f00ff,#ef320c,#e0f901);
   animation: gradient 10s infinite;
+}
+
+.v80 {
+  height : 80vh;
 }
 
 .time {
