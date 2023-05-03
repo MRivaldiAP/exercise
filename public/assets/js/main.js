@@ -281,3 +281,66 @@ function job3Func() {
   var job3 = document.getElementById("job3");
     job3.classList.remove("d-none");
 }
+
+function course1Func() {
+  var c1 = document.getElementById("course1");
+  c1.classList.remove("d-none");
+      var cc1 = document.getElementById("cc1");
+      cc1.classList.add("fa-bolt"); 
+        var cl1 = document.getElementById("cl1");
+        cl1.classList.add("course-link");
+  var c2 = document.getElementById("course2");
+  c2.classList.add("d-none");
+      var cc2 = document.getElementById("cc2");
+      cc2.classList.remove("fa-bolt"); 
+        var cl2 = document.getElementById("cl2");
+        cl2.classList.remove("course-link");
+  var c3 = document.getElementById("course3");
+  c3.classList.add("d-none");
+      var cc3 = document.getElementById("cc3");
+      cc3.classList.remove("fa-bolt"); 
+        var cl3 = document.getElementById("cl3");
+        cl3.classList.remove("course-link");
+}
+
+function course2Func() {
+  var c1 = document.getElementById("course1");
+  c1.classList.add("d-none");
+      var cc1 = document.getElementById("cc1");
+      cc1.classList.remove("fa-bolt"); 
+        var cl1 = document.getElementById("cl1");
+        cl1.classList.remove("course-link");
+  var c2 = document.getElementById("course2");
+  c2.classList.remove("d-none");
+      var cc2 = document.getElementById("cc2");
+      cc2.classList.add("fa-bolt");
+        var cl2 = document.getElementById("cl2");
+        cl2.classList.add("course-link");
+  var c3 = document.getElementById("course3");
+  c3.classList.add("d-none");
+      var cc3 = document.getElementById("cc3");
+      cc3.classList.remove("fa-bolt");
+        var cl3 = document.getElementById("cl3");
+        cl3.classList.remove("course-link");
+}
+
+function course3Func() {
+  var c1 = document.getElementById("course1");
+  c1.classList.add("d-none");
+      var cc1 = document.getElementById("cc1");
+      cc1.classList.remove("fa-bolt"); 
+        var cl1 = document.getElementById("cl1");
+        cl1.classList.remove("course-link");
+  var c2 = document.getElementById("course2");
+  c2.classList.add("d-none");
+      var cc2 = document.getElementById("cc2");
+      cc2.classList.remove("fa-bolt");
+        var cl2 = document.getElementById("cl2");
+        cl2.classList.remove("course-link");
+  var c3 = document.getElementById("course3");
+  c3.classList.remove("d-none");
+      var cc3 = document.getElementById("cc3");
+      cc3.classList.add("fa-bolt");
+        var cl3 = document.getElementById("cl3");
+        cl3.classList.add("course-link");
+}
