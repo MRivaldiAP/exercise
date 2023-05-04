@@ -6,6 +6,65 @@ body {
   animation: gradient 10s infinite;
 }
 
+.aboutme {
+  height: 70vh;
+}
+
+.outer-circle {
+  height: 320px;
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(0, 255, 255), rgb(108, 167, 244), rgba(239, 232, 232, 0.225));
+  border-radius: 50%;
+  animation: rotateCircle 2s linear infinite;
+}
+
+.inner-circle {
+  height: 305px;
+  width: 305px;
+  border: solid white 5px;
+  border-radius: 50%;
+  animation: rotateCircle 2s infinite linear reverse;
+}
+
+@keyframes rotateCircle {
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.image-cropper {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  position: relative;
+  overflow : hidden;
+  margin: auto;
+}
+
+.image-cropper img {
+  height: 100%;
+  width: auto;
+}
+
 .v80 {
   height: 80vh;
 }
@@ -663,6 +722,10 @@ section {
   width: 70%;
 }
 
+.adding {
+  display: flex;
+}
+
 @media (max-width: 768px) {
   .clients img {
     max-width: 40%;
@@ -670,6 +733,24 @@ section {
   .sliding {
     margin-left: 0%;
     width: 100%;
+  }
+
+  .outer-circle {
+    height: 200px;
+    width: 200px;
+  }
+
+  .adding {
+    display: none;
+  }
+
+  .inner-circle {
+    height: 190px;
+    width: 190px;
+  }
+
+  .aboutme {
+    height: 75vh;
   }
 }
 
